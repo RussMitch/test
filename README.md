@@ -1,4 +1,4 @@
-# Microsoft PowerToys
+# GPSSample
 
 ![GPSSample Image](images/gpssample.png)
 
