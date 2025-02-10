@@ -96,45 +96,18 @@ transfer, data export to local device, encrypted
 **Advantages:** Open Source, designed for use in low resource settings,
 can add clusters or draw them, leverages existing data
 
+## Documentation
+
 ## Installing and running GPSSample
 
 ## Development Environment
 
 ## Contributing
 
-This project welcomes contributions of all types.  Besides  coding features / bug fixes,  other ways to assist include spec writing, design, documentation, and finding bugs. We are excited to work with the power user community to build a set of tools for helping you get the most out of Windows.
-
-We ask that **before you start work on a feature that you would like to contribute**, please read our [Contributor's Guide](CONTRIBUTING.md). We would be happy to work with you to figure out the best approach, provide guidance and mentorship throughout feature development, and help avoid any wasted or duplicate effort.
-
-Most contributions require you to agree to a [Contributor License Agreement (CLA)][oss-CLA] declaring that you grant us the rights to use your contribution and that you have permission to do so.
-
-For guidance on developing for PowerToys, please read the [developer docs](/doc/devdocs) for a detailed breakdown. This includes how to setup your computer to compile.
-
-## What's Happening
-
-### GPSSample Roadmap
-
-### Documentation
-
-## PowerToys Community
-
-The PowerToys team is extremely grateful to have the [support of an amazing active community][community-link]. The work you do is incredibly important. PowerToys wouldn’t be nearly what it is today without your help filing bugs, updating documentation, guiding the design, or writing features. We want to say thank you and take time to recognize your work.  Month by month, you directly help make PowerToys a better piece of software.
+## Community
 
 ## Code of Conduct
 
-This project has adopted the [Microsoft Open Source Code of Conduct][oss-conduct-code].
+## License
 
-## Privacy Statement
-
-The application logs basic diagnostic data (telemetry). For more information on privacy and what we collect, see our [PowerToys Data and Privacy documentation](https://aka.ms/powertoys-data-and-privacy-documentation).
-
-[oss-CLA]: https://cla.opensource.microsoft.com
-[oss-conduct-code]: CODE_OF_CONDUCT.md
-[community-link]: COMMUNITY.md
-[github-release-link]: https://aka.ms/installPowerToys
-[microsoft-store-link]: https://aka.ms/getPowertoys
-[winget-link]: https://github.com/microsoft/winget-cli#installing-the-client
-[roadmap]: https://github.com/microsoft/PowerToys/wiki/Roadmap
-[privacy-link]: http://go.microsoft.com/fwlink/?LinkId=521839
-[loc-bug]: https://github.com/microsoft/PowerToys/issues/new?assignees=&labels=&template=translation_issue.md&title=
-[usingPowerToys-docs-link]: https://aka.ms/powertoys-docs
+## Security
