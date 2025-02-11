@@ -1,8 +1,7 @@
 <div align="center">
   <a href="https://www.gpssample.org">
     <picture>
-      <source srcset="images/gpssample.png">
-      <img alt="GPSSample logo" src="images/gpssample.png" height="128">
+      <img alt="GPSSample logo" src="/images/gpssample.png" height="128">
     </picture>
   </a>
   <h1>GPSSample</h1>
