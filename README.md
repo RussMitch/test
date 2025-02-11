@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="https://gpssample.org">
+  <a href="https://www.gpssample.org">
     <picture>
       <img alt="GPSSample logo" src="images/gpssample.png" height="128">
     </picture>
