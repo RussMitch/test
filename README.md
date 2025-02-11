@@ -1,8 +1,11 @@
-# GPSSample
-
-![GPSSample Image](images/gpssample.png)
-
-[How to use PowerToys][usingPowerToys-docs-link] | [Downloads & Release notes][github-release-link] | [Contributing to PowerToys](#contributing) | [What's Happening](#whats-happening) | [Roadmap](#powertoys-roadmap)
+<div align="center">
+  <a href="https://gpssample.org">
+    <picture>
+      <img alt="GPSSample logo" src="images/gpssample.png" height="128">
+    </picture>
+  </a>
+  <h1>GPSSample</h1>
+</div>
 
 ## About
 
