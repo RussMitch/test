@@ -105,7 +105,6 @@ Visit [https://www.gpssample.org/resources/training-guides](https://www.gpssampl
 
 * Mac or PC
 * Android Studio
-* MapBox License
   
 ## Contributing
 
