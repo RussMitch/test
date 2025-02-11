@@ -11,7 +11,7 @@ In order to build the application, you'll need to:
 * Clone the repo
 * Add your [MapBox](https://www.mapbox.com/) license to the local.properties file:
 
-  > MAPBOX_DOWNLOADS_TOKEN=<YOUR-SECRET-KEY-TOKEN>
+<p>MAPBOX_DOWNLOADS_TOKEN=<YOUR-SECRET-KEY-TOKEN></p>
   
 * Build/Run the application on your Android 8+ device
 
