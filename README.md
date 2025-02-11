@@ -101,10 +101,12 @@ can add clusters or draw them, leverages existing data
 
 Visit [https://www.gpssample.org/resources/training-guides](https://www.gpssample.org/resources/training-guides) to view the full documentation.
 
-## Installing and running GPSSample
-
 ## Development Environment
 
+* Mac or PC
+* Android Studio
+* MapBox License
+  
 ## Contributing
 
 There are many ways in which you can participate in this project, for example:
@@ -122,7 +124,7 @@ please see the document [How to Contribute](https://github.com/microsoft/vscode/
 * [Submitting pull requests](https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests)
 * [Finding an issue to work on](https://github.com/microsoft/vscode/wiki/How-to-Contribute#where-to-contribute)
 * [Contributing to translations](https://aka.ms/vscodeloc)
-* 
+  
 ## Community
 
 The GPSSample community can be found on [GitHub Discussions](https://github.com/vercel/next.js/discussions) where you can ask questions, voice ideas, and share your projects with other people.
