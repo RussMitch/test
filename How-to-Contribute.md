@@ -9,7 +9,8 @@ In order to build the application, you'll need to:
 
 * Download and install [Android Studio](https://developer.android.com/studio)
 * Clone the repo
-* Add you MapBox license to the local.properties file
+* Add your [MapBox](https://https://www.mapbox.com/) license to the local.properties file
+* Build/Run the application on your Android 8+ device
 
 ### Troubleshooting
 In case of issues, try deleting the contents of `~/.node-gyp` (alternatively `~/.cache/node-gyp` for Linux, `~/Library/Caches/node-gyp/` for macOS, or `%USERPROFILE%\AppData\Local\node-gyp` for Windows) first and then run `git clean -xfd` and then try again.
