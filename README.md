@@ -107,6 +107,22 @@ Visit [https://www.gpssample.org/resources/training-guides](https://www.gpssampl
 
 ## Contributing
 
+There are many ways in which you can participate in this project, for example:
+
+* [Submit bugs and feature requests](https://github.com/microsoft/vscode/issues), and help us verify as they are checked in
+* Review [source code changes](https://github.com/microsoft/vscode/pulls)
+* Review the [documentation](https://github.com/microsoft/vscode-docs) and make pull requests for anything from typos to additional and new content
+
+If you are interested in fixing issues and contributing directly to the code base,
+please see the document [How to Contribute](https://github.com/microsoft/vscode/wiki/How-to-Contribute), which covers the following:
+
+* [How to build and run from source](https://github.com/microsoft/vscode/wiki/How-to-Contribute)
+* [The development workflow, including debugging and running tests](https://github.com/microsoft/vscode/wiki/How-to-Contribute#debugging)
+* [Coding guidelines](https://github.com/microsoft/vscode/wiki/Coding-Guidelines)
+* [Submitting pull requests](https://github.com/microsoft/vscode/wiki/How-to-Contribute#pull-requests)
+* [Finding an issue to work on](https://github.com/microsoft/vscode/wiki/How-to-Contribute#where-to-contribute)
+* [Contributing to translations](https://aka.ms/vscodeloc)
+* 
 ## Community
 
 ## Code of Conduct
