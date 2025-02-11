@@ -101,6 +101,8 @@ can add clusters or draw them, leverages existing data
 
 ## Documentation
 
+Visit [https://www.gpssample.org/resources/training-guides](https://www.gpssample.org/resources/training-guides) to view the full documentation.
+
 ## Installing and running GPSSample
 
 ## Development Environment
