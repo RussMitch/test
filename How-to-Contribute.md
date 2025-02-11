@@ -7,7 +7,7 @@ After cloning and building the repo, check out the [issues list](https://github.
 
 In order to build the application, you'll need to:
 
-* Download and install ['Android Studio'](https://developer.android.com/studio)
+* Download and install [Android Studio](https://developer.android.com/studio)
 
 
 ### Troubleshooting
