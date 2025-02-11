@@ -1,8 +1,6 @@
 <div align="center">
   <a href="https://www.gpssample.org">
-    <picture>
-      <img alt="GPSSample logo" src="https://github.com/RussMitch/test/blob/main/images/gpssample.png" height="128">
-    </picture>
+    <img alt="GPSSample logo" src="https://github.com/RussMitch/test/blob/main/images/gpssample.png" height="128">
   </a>
   <h1>GPSSample</h1>
 </div>
