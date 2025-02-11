@@ -131,7 +131,7 @@ The GPSSample community can be found on [GitHub Discussions](https://github.com/
 
 To chat with other community members you can join the GPSSample [Discord](https://nextjs.org/discord) server.
 
-Do note that our [Code of Conduct](CODE_OF_CONDUCT.md) applies to all GPSSample community channels. Users are **highly encouraged** to read and adhere to them to avoid repercussions.
+Do note that our [Code of Conduct](https://www.contributor-covenant.org/) applies to all GPSSample community channels. Users are **highly encouraged** to read and adhere to them to avoid repercussions.
 
 ## Code of Conduct
 
