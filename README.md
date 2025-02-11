@@ -139,7 +139,7 @@ This project has adopted the [Contributor Covenant Code of Conduct](https://www.
 
 ## License
 
-Copyright (c) Georgia Tech Research Corporation. All rights reserved.
+Copyright (c) Georgia Tech Research Institute. All rights reserved.
 
 Licensed under the [GPL v3](LICENSE.md) license.
 
