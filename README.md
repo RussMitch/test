@@ -125,11 +125,11 @@ please see the document [How to Contribute](https://github.com/microsoft/vscode/
 * 
 ## Community
 
-The Next.js community can be found on [GitHub Discussions](https://github.com/vercel/next.js/discussions) where you can ask questions, voice ideas, and share your projects with other people.
+The GPSSample community can be found on [GitHub Discussions](https://github.com/vercel/next.js/discussions) where you can ask questions, voice ideas, and share your projects with other people.
 
-To chat with other community members you can join the Next.js [Discord](https://nextjs.org/discord) server.
+To chat with other community members you can join the GPSSample [Discord](https://nextjs.org/discord) server.
 
-Do note that our [Code of Conduct](https://github.com/vercel/next.js/blob/canary/CODE_OF_CONDUCT.md) applies to all Next.js community channels. Users are **highly encouraged** to read and adhere to them to avoid repercussions.
+Do note that our [Code of Conduct](CODE_OF_CONDUCT.md) applies to all GPSSample community channels. Users are **highly encouraged** to read and adhere to them to avoid repercussions.
 
 ## Code of Conduct
 
