@@ -111,6 +111,8 @@ Visit [https://www.gpssample.org/resources/training-guides](https://www.gpssampl
 
 ## Code of Conduct
 
+This project has adopted the [Contributor Covenant Code of Conduct](https://https://www.contributor-covenant.org/). For more information see the [Code of Conduct FAQ](https://www.contributor-covenant.org/faq/).
+
 ## License
 
 Copyright (c) Georgia Tech Research Corporation. All rights reserved.
