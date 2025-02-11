@@ -113,6 +113,10 @@ Visit [https://www.gpssample.org/resources/training-guides](https://www.gpssampl
 
 ## License
 
+Copyright (c) Georgia Tech Research Corporation. All rights reserved.
+
+Licensed under the GPL v3 license.
+
 ## Security
 
 If you believe you have found a security vulnerability in the GPSSample application, we encourage you to **_responsibly disclose this and NOT open a public issue_**. We will investigate all legitimate reports. Email `gpssample23@gmail.com` to disclose any security vulnerabilities.
