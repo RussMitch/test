@@ -9,9 +9,9 @@ In order to build the application, you'll need to:
 
 * Download and install [Android Studio](https://developer.android.com/studio)
 * Clone the repo
-* Add your [MapBox](https://www.mapbox.com/) license to the local.properties file:
+* Add your [MapBox](https://www.mapbox.com/) license secret key to the local.properties file:
 
-   MAPBOX_DOWNLOADS_TOKEN=YOUR-SECRET-KEY-TOKEN
+   MAPBOX_DOWNLOADS_TOKEN=YOUR-SECRET-KEY
   
 * Build/Run the application on your Android 8+ device
 
