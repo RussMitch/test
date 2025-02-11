@@ -115,7 +115,7 @@ Visit [https://www.gpssample.org/resources/training-guides](https://www.gpssampl
 
 Copyright (c) Georgia Tech Research Corporation. All rights reserved.
 
-Licensed under the GPL v3 license.
+Licensed under the [GPL v3](LICENSE.md) license.
 
 ## Security
 
