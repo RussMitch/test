@@ -5,38 +5,10 @@ After cloning and building the repo, check out the [issues list](https://github.
 
 ## Prerequisites
 
-In order to download necessary tools, clone the repository, and install dependencies via `npm`, you need network access.
+In order to build the application, you'll need to:
 
-You'll need the following tools:
+* Download and install ['Android Studio'](https://developer.android.com/studio)
 
-- [Git](https://git-scm.com)
-- [Node.JS](https://nodejs.org/en/download/prebuilt-binaries), **x64** or **ARM64**, version `>=20.x`
-  - Windows: do not pick the option to install Windows Build Tools, see the step below for instructions
-- [Python](https://www.python.org/downloads/) (required for node-gyp; check the [node-gyp readme](https://github.com/nodejs/node-gyp#installation) for the currently supported Python versions)
-  - **Note:** make sure `python` can run from a command line prompt without error
-- A C/C++ compiler tool chain for your platform:
-  - **Windows 10/11 (x64 or ARM64)**
-    - Install the Visual C++ Build Environment by either installing the [Visual Studio Build Tools](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=BuildTools) or the [Visual Studio Community Edition](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community). The minimum workload to install is `Desktop Development with C++`. But there are additional components from "Individual components":
-      - `MSVC v143 - VS 2022 C++ x64/x86 Spectre-mitigated libs (Latest)` (use `ARM64` for Windows on ARM, but the x64/x86 may still be needed)
-      - `C++ ATL for latest build tools with Spectre Mitigations`
-      - `C++ MFC for latest build tools with Spectre Mitigations`
-      - note: for Windows on ARM, you may need to specify the version, e.g. v14.41-17.11, rather than (latest), but pick a version that is not out of support.
-          - also the `MSVC v143 - VS 2022 C++ build tools`.
-    - open a command prompt and run `npm config edit` and add or modify the `msvs_version` setting equal to your vs version. (e.g. `msvs_version=2022` for visual studio 2022)
-    - **Warning:** Make sure your profile path only contains ASCII letters, e.g. *John*, otherwise, it can lead to [node-gyp usage problems (nodejs/node-gyp/issues#297)](https://github.com/nodejs/node-gyp/issues/297)
-    - **Note**: Building and debugging via the Windows subsystem for Linux (WSL) is currently not supported.
-  - **Windows WSL2**: https://github.com/microsoft/vscode/wiki/Selfhosting-on-Windows-WSL
-  - **macOS**
-    - [Xcode](https://developer.apple.com/xcode/resources/) and the Command Line Tools, which will install `gcc` and the related toolchain containing `make`
-      - Run `xcode-select --install` to install the Command Line Tools
-  - **Linux**
-    * On Debian-based Linux: `sudo apt-get install build-essential g++ libx11-dev libxkbfile-dev libsecret-1-dev libkrb5-dev python-is-python3`
-    * On Red Hat-based Linux: `sudo yum groupinstall "Development Tools" && sudo yum install libX11-devel.x86_64 libxkbfile-devel.x86_64 libsecret-devel krb5-devel # or .i686`.
-    * Others:
-      * `make`
-      * [pkg-config](https://www.freedesktop.org/wiki/Software/pkg-config/)
-      * [GCC](https://gcc.gnu.org) or another compile toolchain
-    * Building deb and rpm packages requires `fakeroot` and `rpm`; run: `sudo apt-get install fakeroot rpm`
 
 ### Troubleshooting
 In case of issues, try deleting the contents of `~/.node-gyp` (alternatively `~/.cache/node-gyp` for Linux, `~/Library/Caches/node-gyp/` for macOS, or `%USERPROFILE%\AppData\Local\node-gyp` for Windows) first and then run `git clean -xfd` and then try again.
