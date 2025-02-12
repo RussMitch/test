@@ -15,179 +15,30 @@ In order to build the application, you'll need to:
   
 * Build/Run the application on your Android 8+ device
 
-!!## Enable Commit Signing
-!!
-!!If you're a community member, feel free to jump over this step.
-!!
-!!Otherwise, if you're a member of the VS Code team, follow the [Commit Signing (https://github.com/microsoft/vscode/wiki/Commit-Signing) guide.
-
 ## Build and Run
 
-If you want to understand how VS Code works or want to debug an issue, you'll want to get the source, build it, and run the tool locally.
-
-> NOTE: If you need to debug the 32bit version of VS Code on 64bit Windows, follow [the guide on how to do that](https://github.com/microsoft/vscode/wiki/Build-and-run-32bit-Code---OSS-on-Windows).
+If you want to understand how GPSSample works or want to debug an issue, you'll want to get the source, build it, and run the tool locally.
 
 ### Getting the sources
 
-First, fork the VS Code repository so that you can make a pull request. Then, clone your fork locally:
+First, fork the GPSSample repository so that you can make a pull request. Then, clone your fork locally:
 
 ```
-git clone https://github.com/<<<your-github-account>>>/vscode.git
+git clone https://github.com/<<<your-github-account>>>/gpssample.git
 ```
 
 Occasionally you will want to merge changes in the upstream repository (the official code repo) with your fork.
 
 ```
-cd vscode
 git checkout main
-git pull https://github.com/microsoft/vscode.git main
+git pull https://github.com/gpssample/gpssample.git main
 ```
 
 Manage any merge conflicts, commit them, and then push them to your fork.
 
-**Note**: The `microsoft/vscode` repository contains a collection of GitHub Actions that help us with triaging issues. As you probably don't want these running on your fork, you can disable Actions for your fork via `https://github.com/<<Your Username>>/vscode/settings/actions`.
+**Note**: The `gpssample/gpssample` repository contains a collection of GitHub Actions that help us with triaging issues. As you probably don't want these running on your fork, you can disable Actions for your fork via `https://github.com/<<Your Username>>/gpssample/settings/actions`.
 
 ### Build
-
-Install and build all of the dependencies using `npm`:
-
-```
-cd vscode
-npm install
-```
-
-Then you have two options:
-
-- If you want to build from inside VS Code, you can open the `vscode` folder and start the build task with <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>B</kbd> (<kbd>CMD</kbd>+<kbd>Shift</kbd>+<kbd>B</kbd> on macOS). The build task will stay running in the background even if you close VS Code. If you happen to close VS Code and open it again, just resume the build by pressing <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>B</kbd> (<kbd>CMD</kbd>+<kbd>Shift</kbd>+<kbd>B</kbd>) again. You can kill it by running the `Kill Build VS Code` task or pressing <kbd>Ctrl</kbd>+<kbd>D</kbd> in the task terminal.
-- If you want to build from a terminal, run `npm run watch`. This will run both the core watch task and watch-extension tasks in a single terminal.
-
-The incremental builder will do an initial full build and will display a message that includes the phrase "Finished compilation" once the initial build is complete. The builder will watch for file changes and compile those changes incrementally, giving you a fast, iterative coding experience.
-
-**Troubleshooting:**
-
-- **Windows:** If you have installed Visual Studio 2017 as your build tool, you need to open **x64 Native Tools Command Prompt for VS 2017**. Do not confuse it with *VS2015 x64 Native Tools Command Prompt*, if installed.
-- **Linux:** You may hit a ENOSPC error when running the build. To get around this follow instructions in the [Common Questions](https://code.visualstudio.com/docs/setup/linux#_common-questions).
-
-If the build step fails, or if the built version fails to run (see next section), run `git clean -xfd` in your `vscode` folder, then re-run `npm install`.
-
-#### Errors and Warnings
-Errors and warnings will show in the console while developing VS Code. If you use VS Code to develop VS Code, errors and warnings are shown in the status bar at the bottom left of the editor. You can view the error list using `View | Errors and Warnings` or pressing <kbd>Ctrl</kbd>+<kbd>P</kbd> and then <kbd>!</kbd> (<kbd>CMD</kbd>+<kbd>P</kbd> and <kbd>!</kbd> on macOS).
-
-👉 **Tip!** You don't need to stop and restart the development version of VS Code after each change. You can just execute `Reload Window` from the command palette. We like to assign the keyboard shortcut <kbd>Ctrl</kbd>+<kbd>R</kbd> (<kbd>CMD</kbd>+<kbd>R</kbd> on macOS) to this command.
-
-### Run
-
-To test the changes, you launch a development version of VS Code on the workspace `vscode`, which you are currently editing.
-
-To test changes with a remote, use the "TestResolver" in your Code - OSS window which creates a fake remote window. Search Command Palette for `TestResolver`. More information is at https://github.com/microsoft/vscode/issues/162874#issuecomment-1271774905.
-
-#### Desktop
-
-Running on Electron with extensions run in NodeJS:
-
-##### macOS and Linux
-
-```bash
-./scripts/code.sh
-./scripts/code-cli.sh # for running CLI commands (eg --version)
-```
-
-##### Windows
-
-```bat
-.\scripts\code.bat
-.\scripts\code-cli.bat
-```
-
-👉 **Tip!** If you receive an error stating that the app is not a valid Electron app, it probably means you didn't run `npm run watch` first.
-
-#### VS Code for the Web
-
-Extensions and UI run in the browser.
-
-👉 Besides `npm run watch` also run `npm run watch-web` to build the web bits for the built-in extensions.
-
-##### macOS and Linux
-
-```bash
-./scripts/code-web.sh
-```
-
-##### Windows
-
-```bat
-.\scripts\code-web.bat
-```
-#### Code Server Web
-
-UI in the browser, extensions run in code server (NodeJS):
-
-##### macOS and Linux
-
-```bash
-./scripts/code-server.sh --launch
-```
-
-##### Windows
-
-```bat
-.\scripts\code-server.bat --launch
-```
-
-You can identify the development version of VS Code ("Code - OSS") by the following icon in the Dock or Taskbar:
-
-[![VS Code default icon](https://i.imgur.com/D2CeX0y.png)](https://i.imgur.com/D2CeX0y.png)
-
-
-### Debugging
-VS Code has a multi-process architecture and your code is executed in different processes.
-
-The **render** process runs the UI code inside the Shell window. To debug code running in the **render** you can either use VS Code or the Chrome Developer Tools.
-
-#### Using VS Code
-* Open the `vscode` repository folder
-* Choose the `VS Code` launch configuration from the launch dropdown in the Debug viewlet and press <kbd>F5</kbd>.
-
-
-#### Using the Chrome Developer Tools
-
-* Run the `Developer: Toggle Developer Tools` command from the Command Palette in your development instance of VS Code to launch the Chrome tools.
-* It's also possible to debug the released versions of VS Code, since the sources link to sourcemaps hosted online.
-
-[![sourcemaps](http://i.imgur.com/KU3TdjO.png)](http://i.imgur.com/KU3TdjO.png)
-
-The **extension host** process runs code implemented by a plugin. To debug extensions (including those packaged with VS Code) which run in the extension host process, you can use VS Code itself. Switch to the Debug viewlet, choose the `Attach to Extension Host` configuration, and press <kbd>F5</kbd>.
-
-The **search** process can be debugged, but must first be started. Before attempting to attach, start a search by pressing <kbd>Ctrl</kbd>+<kbd>P</kbd> (<kbd>CMD</kbd>+<kbd>P</kbd> on macOS), otherwise, attaching will fail and time out.
-
-### Automated Testing
-Run the unit tests directly from a terminal by running `./scripts/test.sh` from the `vscode` folder (`scripts\test` on Windows). The [test README](https://github.com/Microsoft/vscode/blob/main/test/README.md) has complete details on how to run and debug tests, as well as how to produce coverage reports.
-
-We also have automated UI tests. The [smoke test README](https://github.com/Microsoft/vscode/blob/main/test/smoke/README.md) has all the details.
-
-### Unit Testing
-Run the tests directly from a terminal by running `./scripts/test.sh` from the `vscode` folder (`scripts\test` on Windows). The [test README](https://github.com/Microsoft/vscode/blob/main/test/README.md) has complete details on how to run and debug tests, as well as how to produce coverage reports.
-
-### Linting
-We use [eslint](https://eslint.org/) for linting our sources. You can run eslint across the sources by calling `npm run eslint` from a terminal or command prompt. You can also run `npm run eslint` as a VS Code task by pressing <kbd>Ctrl</kbd>+<kbd>P</kbd> (<kbd>CMD</kbd>+<kbd>P</kbd> on macOS) and entering `task eslint`.
-
-To lint the source as you make changes you can install the [eslint extension](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint).
-
-### Extensions
-The Visual Studio Marketplace is not available from the `vscode` open source builds. If you need to use or debug an extension you can check to see if the extension author publishes builds in their repository (check the `Builds` page) or if it is open source you can clone and build the extension locally. Once you have the .VSIX, you can "side load" the extension either through the command line or using __Install from VSIX__ command in the Extensions View command drop-down ([see more](https://code.visualstudio.com/docs/editor/extension-gallery#_command-line-extension-management) on command line extension management).
-
-## Work Branches
-Even if you have push rights on the Microsoft/vscode repository, you should create a personal fork and create feature branches there when you need them. This keeps the main repository clean and your personal workflow cruft out of sight.
-
-## Pull Requests
-Before we can accept a pull request from you, you'll need to sign a [[Contributor License Agreement (CLA)|Contributor-License-Agreement]]. It is an automated process and you only need to do it once.
-
-To enable us to quickly review and accept your pull requests, always create one pull request per issue and [link the issue in the pull request](https://github.com/blog/957-introducing-issue-mentions). Never merge multiple requests in one unless they have the same root cause. Be sure to follow our [[Coding Guidelines|Coding-Guidelines]] and keep code changes as small as possible. Avoid pure formatting changes to code that has not been modified otherwise. Pull requests should contain tests whenever possible.
-
-### Introducing usage of new Electron API with a PR
-A pull request that depends on Electron API that VS Code is currently not using comes with a certain risk and may be rejected. Whenever we update Electron, there is a chance that less popular Electron APIs break and it is very hard to find out upfront. Once a PR lands in VS Code, the role of maintaining the feature moves to the team and as such we have to follow up with upstream components to ensure the feature is still supported. As such, as a rule of thumb:
-* avoid Electron APIs and use web standards instead (this also ensures that your feature is supported in our web client)
-* if you must use Electron APIs, we require a unit test at https://github.com/electron/electron so that we protect against future breakage.
 
 ### Where to Contribute
 Check out the [full issues list](https://github.com/Microsoft/vscode/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue) for a list of all potential areas for contributions. Note that just because an issue exists in the repository does not mean we will accept a contribution to the core editor for it. There are several reasons we may not accept a pull request like:
