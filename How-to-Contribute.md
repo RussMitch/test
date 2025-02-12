@@ -15,43 +15,11 @@ In order to build the application, you'll need to:
   
 * Build/Run the application on your Android 8+ device
 
-### Troubleshooting
-In case of issues, try deleting the contents of `~/.node-gyp` (alternatively `~/.cache/node-gyp` for Linux, `~/Library/Caches/node-gyp/` for macOS, or `%USERPROFILE%\AppData\Local\node-gyp` for Windows) first and then run `git clean -xfd` and then try again.
-
-> If you are on Windows or Linux 64 bit systems and would like to compile to 32 bit, you'll need to set the `npm_config_arch` environment variable to `ia32` before running `npm`. This will compile all native node modules for a 32 bit architecture. Similarly, when cross-compiling for ARM, set `npm_config_arch` to `arm`.
-
-> **Note:** For more information on how to install NPM modules globally on UNIX systems without resorting to `sudo`, refer to [this guide](http://www.johnpapa.net/how-to-use-npm-global-without-sudo-on-osx/).
-
-> If you have Visual Studio 2019 installed, you may face issues when using the default version of node-gyp. If you have Visual Studio 2019 installed, you may need to follow the solutions [here](https://github.com/nodejs/node-gyp/issues/1747).
-
-#### Missing spectre mitigated libraries on Windows
-
-If you are using npm >= 10.2.3 or node-gyp >= 10.0.0, then you might see error when building native modules of this project
-
-> Spectre-mitigated libraries are required for this project.
-
-To fix this error open Visual Studio Installer, add the following components corresponding to the architecture you are building for (x64/ARM/ARM64) and restart your build session
-
-- MSVC Spectre-mitigated libs (latest)
-- C++ ATL for latest build tools with Spectre Mitigations
-- C++ MFC for latest build tools with Spectre Mitigations
-
-### Development container
-
-Alternatively, you can avoid local dependency installation as this repository includes a Visual Studio Code Remote - Containers / Codespaces [development container](https://github.com/microsoft/vscode/tree/main/.devcontainer).
-
-- For [Remote - Containers](https://aka.ms/vscode-remote/download/containers), use the **Remote-Containers: Open Repository in Container...** command which creates a Docker volume for better disk I/O on macOS and Windows.
-- For Codespaces, install the [GitHub Codespaces](https://marketplace.visualstudio.com/items?itemName=GitHub.codespaces) extension in VS Code, and use the **Codespaces: Create New Codespace** command.
-
-Docker / the Codespace should have at least **4 Cores and 6 GB of RAM (8 GB recommended)** to run the full build. See the [development container README](https://github.com/microsoft/vscode/blob/main/.devcontainer/README.md) for more information.
-
-If you'd like to contribute to the list of available development containers in the Remote - Containers extension, you can check out the [Contributing documentation](https://github.com/microsoft/vscode-dev-containers/blob/master/CONTRIBUTING.md) in the vscode-dev-containers repo.
-
-## Enable Commit Signing
-
-If you're a community member, feel free to jump over this step.
-
-Otherwise, if you're a member of the VS Code team, follow the [Commit Signing](https://github.com/microsoft/vscode/wiki/Commit-Signing) guide.
+!!## Enable Commit Signing
+!!
+!!If you're a community member, feel free to jump over this step.
+!!
+!!Otherwise, if you're a member of the VS Code team, follow the [Commit Signing (https://github.com/microsoft/vscode/wiki/Commit-Signing) guide.
 
 ## Build and Run
 
