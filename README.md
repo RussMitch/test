@@ -5,11 +5,10 @@
   <h1>GPSSample</h1>
 </div>
 
-[![Platform](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](https://makeapullrequest.com)
-[![first-timers-only Friendly](https://img.shields.io/badge/first--timers--only-friendly-blue.svg)](https://www.firsttimersonly.com/)
-[![Open Source Helpers](https://www.codetriage.com/freecodecamp/freecodecamp/badges/users.svg)](https://www.codetriage.com/freecodecamp/freecodecamp)
-[![Setup Automated](https://img.shields.io/badge/setup-automated-blue?logo=gitpod)](https://gitpod.io/from-referrer/)
-[![Discord](https://img.shields.io/discord/692816967895220344?logo=discord&label=Discord&color=5865F2)](https://discord.gg/PRyKn3Vbay)
+[![Platform](https://img.shields.io/badge/Platform-Android-3B90C4.svg?style=flat)](https://makeapullrequest.com)
+[![Language](https://img.shields.io/badge/Language-Kotlin-blue.svg?style=flat)](https://makeapullrequest.com)
+[![License](https://img.shields.io/badge/License-GPL%20v3-blue.svg?style=flat)](https://makeapullrequest.com)
+[![Chat](https://img.shields.io/badge/Chat-on%20slack-60C53A.svg?style=flat)](https://makeapullrequest.com)
 
 ## About
 
