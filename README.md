@@ -5,7 +5,7 @@
   <h1>GPSSample</h1>
 </div>
 
-[![Platform](https://img.shields.io/badge/Platform-Android-3B90C4.svg?style=flat)]()
+[![Platform](https://img.shields.io/badge/Platform-Android-3B90C4.svg?style=flat)]
 [![Language](https://img.shields.io/badge/Language-Kotlin-blue.svg?style=flat)](https://makeapullrequest.com)
 [![License](https://img.shields.io/badge/License-GPL%20v3-blue.svg?style=flat)](https://makeapullrequest.com)
 [![Chat](https://img.shields.io/badge/Chat-on%20slack-60C53A.svg?style=flat)](https://makeapullrequest.com)
