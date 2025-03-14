@@ -49,7 +49,7 @@ connectivity.
 
 What are your ideal use cases for GPSSample? Please reach out and let us know!
 
-**Technical Specifications:** Android 8+ mobile app, handshakes with existing survey tool (ODK, Kobo, or Ona) , uses Mapbox basemaps, QR code data transfer, data export to local device, encrypted![image](https://github.com/user-attachments/assets/63d419c0-2060-4c9d-95af-9bcccb9b5ace)
+**Technical Specifications:** Android 8+ mobile app, handshakes with existing survey tool (ODK, Kobo, or Ona) , uses Mapbox basemaps, QR code data transfer, data export to local device, encrypted.
 
 **Technical Specifications:** Android 8+ mobile app, handshakes with
 existing survey tool – ODK (ex), uses Mapbox basemaps, QR code data
