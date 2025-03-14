@@ -8,7 +8,7 @@
 [![Platform](https://img.shields.io/badge/Platform-Android-3B90C4.svg?style=flat)](https://www.android.com)
 [![Language](https://img.shields.io/badge/Language-Kotlin-blue.svg?style=flat)](https://kotlinlang.org)
 [![License](https://img.shields.io/badge/License-GPL%20v3-blue.svg?style=flat)](LICENSE.md)
-[![Chat](https://img.shields.io/badge/Chat-on%20slack-60C53A.svg?style=flat)](https://makeapullrequest.com)
+[![Chat](https://img.shields.io/badge/Chat-on%20slack-60C53A.svg?style=flat)](https://slack.com/signin)
 
 ## About
 
