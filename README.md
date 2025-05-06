@@ -51,10 +51,6 @@ What are your ideal use cases for GPSSample? Please reach out and let us know!
 
 **Technical Specifications:** Android 8+ mobile app, handshakes with existing survey tool (ODK, Kobo, or Ona) , uses Mapbox basemaps, QR code data transfer, data export to local device, encrypted.
 
-**Technical Specifications:** Android 8+ mobile app, handshakes with
-existing survey tool – ODK (ex), uses Mapbox basemaps, QR code data
-transfer, data export to local device, encrypted.
-
 **Sampling Methods:** Simple random sample, cluster-based sample
 
 **Advantages:** Open Source, designed for use in low resource settings, can add clusters in four ways: import GeoJSON files, draw them in the map, walk the boundaries, or tap on the map and specify the cluster size, leverages existing spatial datasets, free, and available in multiple languages (English, French, Spanish, Portuguese, Russian, and Bahasa)
