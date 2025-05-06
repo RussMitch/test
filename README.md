@@ -73,6 +73,14 @@ There are many ways in which you can participate in this project, for example:
 * Review the [documentation](https://github.com/GPS-Sample/GPS-Sample/tree/main/Documents) and make pull requests for anything from typos to additional and new content
 
 If you are interested in fixing issues and contributing directly to the code base, please see the document [How to Contribute](How-to-Contribute.md).
+
+## Build Instructions
+
+* Install Android Studio on your PC or Mac
+* Clone the repo and open in Android Studio
+* If using MapBox, edit the local.properties file and add your MapBox secret token:
+    MAPBOX_DOWNLOADS_TOKEN=<ENTER-YOUR-TOKEN-HERE>
+* Sync the project (requires internet) and build the solution
   
 ## Community
 
