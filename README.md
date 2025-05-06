@@ -79,7 +79,7 @@ If you are interested in fixing issues and contributing directly to the code bas
 * Install Android Studio on your PC or Mac
 * Clone the repo and open in Android Studio
 * If using MapBox, edit the local.properties file and add your MapBox secret token:
-    MAPBOX_DOWNLOADS_TOKEN=<ENTER-YOUR-TOKEN-HERE>
+*   MAPBOX_DOWNLOADS_TOKEN=<ENTER-YOUR-TOKEN-HERE>
 * Sync the project (requires internet) and build the solution
   
 ## Community
