@@ -76,9 +76,7 @@ If you are interested in fixing issues and contributing directly to the code bas
   
 ## Community
 
-The GPSSample community can be found on [GitHub Discussions](https://github.com/vercel/next.js/discussions) where you can ask questions, voice ideas, and share your projects with other people.
-
-To chat with other community members you can join the GPSSample [Discord](https://nextjs.org/discord) server.
+The GPSSample community can be found on [Discord](https://discord.gg/xJWY4ckr) where you can ask questions, voice ideas, and share your projects with other people.
 
 Do note that our [Code of Conduct](https://www.contributor-covenant.org/) applies to all GPSSample community channels. Users are **highly encouraged** to read and adhere to them to avoid repercussions.
 
